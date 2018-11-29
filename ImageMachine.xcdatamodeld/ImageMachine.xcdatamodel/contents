@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="14460.32" systemVersion="18A391" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Image" representedClassName=".Image" syncable="YES">
+        <attribute name="image" optional="YES" attributeType="Transformable" syncable="YES"/>
+        <relationship name="toItem" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Machine" inverseName="toImage" inverseEntity="Machine" syncable="YES"/>
+    </entity>
+    <entity name="Machine" representedClassName=".Machine" syncable="YES">
+        <attribute name="id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="lastSeen" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="name_machine" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="qrCode_machine" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="type_machine" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="toImage" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Image" inverseName="toItem" inverseEntity="Image" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Image" positionX="187.37109375" positionY="-26.50390625" width="128" height="73"/>
+        <element name="Machine" positionX="-63" positionY="-18" width="128" height="133"/>
+    </elements>
+</model>

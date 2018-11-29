@@ -1,0 +1,24 @@
+PODS:
+  - AMPopTip (3.5.0)
+  - IQKeyboardManagerSwift (6.1.1)
+  - Toaster (2.1.1)
+
+DEPENDENCIES:
+  - AMPopTip
+  - IQKeyboardManagerSwift
+  - Toaster (~> 2.0)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - AMPopTip
+    - IQKeyboardManagerSwift
+    - Toaster
+
+SPEC CHECKSUMS:
+  AMPopTip: 871ae0570b68fe396e714922b3f7d8ed6a36bb71
+  IQKeyboardManagerSwift: 977affaeb4d6e971975c7790a6850f31d38f1207
+  Toaster: a6c9532de1ded8105e77376f7dffeb2e12b46dbb
+
+PODFILE CHECKSUM: 6a81080960adc412fc5fa4e260c02044577fc763
+
+COCOAPODS: 1.5.3
